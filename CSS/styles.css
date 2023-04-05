@@ -13,7 +13,14 @@ element,element,..	div, p	      Selects all <div> elements and all <p> elements
 	Filename: styles.css
       
 	Author: Avery Garant & Daniel Roede
-	Date:     
+	Date:  
+
+Color Scheme to remain consistent:
+	#568259 - Dark green
+	#464e47 - Dark grey
+	floralwhite - white to keep using
+	#f3fadc - light background color from logo (like a gray)
+	#bc9c22 - gold to use as accents
 */
 
 /* reset styles */

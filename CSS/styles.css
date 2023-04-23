@@ -26,6 +26,8 @@ Color Scheme to remain consistent:
 /* reset styles */
 html {
    font-size: 20px;
+   position: relative;
+   min-height: 100%;
 }
 a, article, body, div, figcaption, figure, footer, header, h1, 
 h2, h3, img, nav, p, dd, dl, dt, ul, li {
@@ -48,8 +50,9 @@ table{
 
 /* body and page container */
 body {
-   font-family: Verdana, Geneva, sans-serif;
-   background-color: floralwhite;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: floralwhite;
+	background-image: url(../images/background.png)
 }
 .header-nav-container {
    background-color: #568259;
@@ -124,12 +127,13 @@ nav.sitenavigation a:active {
 
 /* main content */
 article {
-   width: 62.5%;
-   padding-top: 2%;
-   padding-left: 3%;
-   padding-right: 3%;
-   float: left;
-   background-color: floralwhite;
+	width: 62.5%;
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	float: left;
+	background-color: floralwhite;
+	background-image: url(../images/background.png)
 }
 article h2 {
    margin: 0.4em 0.4em 0;
